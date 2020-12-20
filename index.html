@@ -20,7 +20,7 @@
            <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
            
-           <script src="Assets/app.js"></script>
+           
 
 
 </head>
@@ -60,25 +60,9 @@
                    <!-- Beginning of the more text hypertext markup for the static page of the website -->
                   <div class="moreTxt">
                      <p>I mentor, read books, write articles, watch anime and play <Br> COD. I take ☕ and I like darkmode 
-                        <i id="green" onclick="darkMode();" class="ri-toggle-line"></i>
+                        <i id="green" class="ri-toggle-line"></i>
                         
-                        <script>
-                            function darkMode(){
-                               var frame = document.getElementsByTagName("body")[0];
-                               var blob  = document.getElementsByClassName("blob")[0];
-                               var flag = true;
-
-                               if (flag){
-                                 frame.style="background:#161616; color:white";
-                                 blob.style="background:#202020; box-shadow:5px 7px 15px black";
-                               }
-                               else {
-                                 frame.style="background:white; color:#161616";
-                                 blob.style="background:white; box-shadow:5px 7px 15px grey"; 
-                               }
-                               flag= !flag;
-                            }
-                        </script>
+                      
                      </p>
                   </div>
 
@@ -95,7 +79,7 @@
                   </div>
 
                   <div class="credits">
-                    <p>Developed by <a href="https://twitter.com/Jesseakoh">Fervent</a></p>
+                    <p>Developed by <a target="_blank" href="https://twitter.com/Jesseakoh">Fervent</a></p>
                   </div>
                </footer>
             </div>
@@ -105,10 +89,10 @@
 
                   <nav>
                      <ul>
-                        <li>SKILLS</li>
+                        <li id="skill">SKILLS</li>
                         <li id="project" >PROJECTS</li>
-                        <li>DESIGNS</li>
-                        <li>ARTICLES</li>
+                        <!-- <li id="designs">DESIGNS</li> -->
+                        <li id="articles">ARTICLES</li>
                      </ul>
                   </nav>
                </header>
@@ -168,7 +152,7 @@
           
                      </div>
 
-              <!-- the div class for the Projects container -->
+                      <!-- the div class for the Projects container -->
                      <div class="projects">
                         <!-- projects child -->
                         <div class="project-child">
@@ -192,11 +176,65 @@
                            <div class="view"></div>
                         </div>
 
-                    
-                        
+                        <div class="project-child">
+                           <h4>Project Name</h4>
+                           <p>Project info (small words)</p>
+
+                           <div class="view"></div>
+                        </div>
+
+                        <div class="project-child">
+                           <h4>Project Name</h4>
+                           <p>Project info (small words)</p>
+
+                           <div class="view"></div>
+                        </div>
+
+                        <div class="project-child">
+                           <h4>Project Name</h4>
+                           <p>Project info (small words)</p>
+
+                           <div class="view"></div>
+                        </div>
+
+                        <div class="project-child">
+                           <h4>Project Name</h4>
+                           <p>Project info (small words)</p>
+
+                           <div class="view"></div>
+                        </div>
+
+                        <div class="project-child">
+                           <h4>Project Name</h4>
+                           <p>Project info (small words)</p>
+
+                           <div class="view"></div>
+                        </div>
 
                       
                      </div>
+
+
+
+                     <div class="article-set">
+                        <div class="post">
+                           <h4>Title</h4>
+                        </div>
+
+                        <div class="post">
+                           <h4>Title</h4>
+                        </div>
+
+                        <div class="post">
+                           <h4>Title</h4>
+                        </div>
+                        <div class="post">
+                           <h4>Title</h4>
+                        </div>
+                     </div>
+                    
+                     <script src="Assets/app.js"></script>
+
                   </div>
                  
                </div>
