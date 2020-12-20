@@ -249,6 +249,15 @@ main{
                   padding:10px 12px;
                   .skill-set{
                      font-size:12px;
+                     .skills{
+                        .skLi{
+                           ul{
+                              li{
+                                 padding:9px;
+                              }
+                           }
+                        }
+                     }
                   }
                }
             }

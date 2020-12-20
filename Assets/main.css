@@ -248,5 +248,8 @@ main {
   .section .dynamic .blob .container .skill-set {
     font-size: 12px;
   }
+  .section .dynamic .blob .container .skill-set .skills .skLi ul li {
+    padding: 9px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
