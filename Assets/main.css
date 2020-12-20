@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: #161616;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  margin: 30px;
+  padding: 30px;
+}
+
+main .divette {
+  width: 100%;
+  background: #5dc95d;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.section .static {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0px 50px;
+  overflow: hidden;
+}
+
+.section .static .avartar img {
+  border-radius: 100%;
+  width: 20%;
+  z-index: 10;
+}
+
+.section .static .portText h1 {
+  padding: 20px  0px;
+}
+
+.section .static .portText .intro {
+  padding: 20px 0px;
+  font-size: 14px;
+}
+
+.section .static .portText .intro span {
+  color: #1c6cae;
+}
+
+.section .static .portText .sList {
+  font-size: 14px;
+  margin: 20px 40px;
+}
+
+.section .static .portText .moreTxt {
+  font-size: 14px;
+}
+
+.section .static .portText .moreTxt #green {
+  font-size: 20px  !important;
+  color: green;
+}
+
+.section .static footer .links {
+  padding: 20px 0px;
+}
+
+.section .static footer .links i {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.section .static footer .links i:hover {
+  font-size: 23px;
+}
+
+.section .static footer .credits p {
+  font-size: 13px;
+}
+
+.section .static footer .credits p a {
+  color: orangered;
+}
+
+.section .dynamic {
+  width: 50%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.section .dynamic header {
+  margin: 0 auto;
+}
+
+.section .dynamic header nav ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 2px 25px;
+  font-size: 16px;
+  display: inline;
+}
+
+.section .dynamic header nav ul li:hover {
+  border-bottom: 3px solid #1c6cae;
+  cursor: pointer;
+}
+
+.section .dynamic .blob {
+  background: white;
+  border-radius: 9px;
+  margin: 30px 0px;
+  height: 90%;
+  -webkit-box-shadow: 5px 7px 15px grey;
+          box-shadow: 5px 7px 15px grey;
+}
+
+.section .dynamic .blob .container {
+  padding: 20px 40px;
+}
+
+.section .dynamic .blob .container .skills h3 {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.section .dynamic .blob .container .skills .hr {
+  width: 100%;
+  height: 2px;
+  background-color: #1c6cae;
+}
+
+.section .dynamic .blob .container .skills .skLi {
+  width: 100%;
+}
+
+.section .dynamic .blob .container .skills .skLi ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 20px;
+}
+
+.section .dynamic .blob .container .tools h3 {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.section .dynamic .blob .container .tools .hr {
+  width: 100%;
+  height: 2px;
+  background-color: #1c6cae;
+}
+
+.section .dynamic .blob .container .tools .toLi ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 10px 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section .dynamic .blob .projects {
+  display: none;
+}
+
+.section .dynamic .blob .projects .project-child {
+  padding: 9px;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 3px 9px grey;
+          box-shadow: 2px 3px 9px grey;
+  margin: 10px;
+}
+/*# sourceMappingURL=main.css.map */
