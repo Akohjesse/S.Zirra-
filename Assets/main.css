@@ -245,5 +245,8 @@ main {
   .section .dynamic .blob .container {
     padding: 10px 12px;
   }
+  .section .dynamic .blob .container .skill-set {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
