@@ -16,11 +16,6 @@ main {
   padding: 30px;
 }
 
-main .divette {
-  width: 100%;
-  background: #5dc95d;
-}
-
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,5 +200,50 @@ main .divette {
           box-shadow: 2px 3px 6px #d6d4d4;
   padding: 9px;
   border-radius: 1px;
+}
+
+@media (min-width: 350px) {
+  main {
+    margin: 20px 10px;
+    padding: 10px;
+  }
+  .section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .section .static {
+    margin: 0 8px;
+  }
+  .section .static .portText h1 {
+    padding: 15px 0px;
+    font-size: 1.7em;
+  }
+  .section .static footer .links {
+    text-align: center;
+  }
+  .section .static footer .credits {
+    display: none;
+  }
+  .section .dynamic {
+    width: 100%;
+  }
+  .section .dynamic header {
+    margin: 0 9px;
+  }
+  .section .dynamic header nav ul li {
+    font-size: 16px;
+    padding: 2px 10px;
+  }
+  .section .dynamic .blob {
+    margin: 9px 0px;
+  }
+  .section .dynamic .blob .container {
+    padding: 10px 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
