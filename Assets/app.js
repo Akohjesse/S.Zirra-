@@ -56,7 +56,7 @@ var flag = true;
 toggleDark.addEventListener("click", function(){
     if (flag){
         body.style="background:#161616; color:white;";
-        blob.style="background:#202020; color:white;";
+        blob.style="background:#202020; color:white; box-shadow:none";
         for (i=0; i< projectChild; i++){
             document.querySelectorAll(".project-child")[i].style="box-shadow:3px 3px 9px #161616";
       };
@@ -66,7 +66,7 @@ toggleDark.addEventListener("click", function(){
         
     }
     else{
-        body.style="background:white";
+        body.style="background:rgb(233, 229, 229)";
         blob.style="background:white";
         for (i=0; i< projectChild; i++){
             document.querySelectorAll(".project-child")[i].style="box-shadow:2px 3px 6px rgb(214, 212, 212)";

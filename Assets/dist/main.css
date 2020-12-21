@@ -5,7 +5,7 @@
 }
 
 body {
-  background: white;
+  background: #e9e5e5;
   color: #161616;
   font-family: "Montserrat", sans-serif;
 }
@@ -96,6 +96,7 @@ main {
   border-radius: 9px;
   margin: 30px 0px;
   height: 90%;
+  box-shadow: 5px 7px 15px #d8d0d0;
 }
 .section .dynamic .blob .container {
   padding: 30px 40px;
@@ -154,7 +155,7 @@ main {
   border-radius: 1px;
 }
 
-@media (min-width: 350px) and (max-width: 485px) {
+@media (min-width: 350px) and (max-width: 520px) {
   main {
     margin: 20px 10px;
     padding: 10px;
@@ -199,5 +200,30 @@ main {
   }
   .section .dynamic .blob .container .skill-set .skills .skLi ul li {
     padding: 9px;
+  }
+}
+@media (max-width: 1070px) {
+  main {
+    margin: 10px;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  main .section .static {
+    margin: 0px 30px;
+  }
+  main .section .dynamic {
+    width: 55%;
+  }
+  main .section .dynamic header {
+    margin: 0 30px;
+  }
+  main .section .dynamic header nav ul li {
+    padding: 2px 10px;
+  }
+  main .section .dynamic .blob .container .skill-set {
+    font-size: 15x;
+  }
+  main .section .dynamic .blob .container .skill-set hr {
+    width: 100%;
   }
 }
